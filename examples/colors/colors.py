@@ -26,3 +26,7 @@ def cli():
 
     click.echo(click.style('I am blinking', blink=True))
     click.echo(click.style('I am underlined', underline=True))
+
+    
+if __name__ == '__main__':
+  cli()    
